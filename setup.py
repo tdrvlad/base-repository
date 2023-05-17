@@ -4,10 +4,10 @@ with open("requirements.txt", encoding="UTF8") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="mail-organizer",
+    name="Name",
     version="0.1",
-    description="Module that organizes Gmail attachments in a private Google Drive. ",
+    description="Description",
     packages=find_packages(where=".", exclude=("tests", "tests.*", "data", "data.*")),
-    package_dir={"mail-organizer": "mail_organizer"},
+    package_dir={"module": "Module"},
     install_requires=requirements,
 )
