@@ -131,12 +131,7 @@ dmypy.json
 # IDE Config Files
 .vscode/
 .idea/
-/src/output/
-/red_music_genre_recognition/input/
-/red_music_genre_recognition/output/
-/red_music_genre_recognition/model_ckpts/
 
 logs/
 data/
-vm_data/
 tmp/
